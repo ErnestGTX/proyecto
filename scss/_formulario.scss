@@ -1,0 +1,112 @@
+/*estilo para formulario*/
+.formulario__contacto {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-color: orange;
+  color: white;
+}
+/*label*/
+form label {
+  width: 15rem;
+  font-size: 1rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/*inputs*/
+form input[type="text"],
+form input[type="email"] {
+  width: 20rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  align-self: center;
+}
+
+/*boton enviar*/
+form input[type="submit"] {
+  width: 15rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: blueviolet;
+  margin-bottom: 0.5rem;
+  align-self: center;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: orange;
+}
+
+/*boton borrar*/
+form input[type="reset"] {
+  width: 15rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: blueviolet;
+  align-self: center;
+}
+
+form input[type="reset"]:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: orange;
+}
+
+/*ingreso de texto*/
+textarea {
+  width: 25rem;
+  height: 7rem;
+  border: 3px solid blueviolet;
+  border-radius: 0.5rem;
+  background-color: white;
+  resize: none;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+/*menu seleccion multiple*/
+select {
+  width: 20rem;
+  padding: 0.5rem;
+  background-color: white;
+  color: grey;
+  border-radius: 1rem;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  .formulario__contacto {
+    height: 100vh;
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .formulario__contacto {
+    height: 100vh;
+    padding-top: 1rem;
+
+    form {
+      width: 23rem;
+    }
+    form label {
+      width: 15rem;
+      margin: 0.5rem 0 0.5rem 0;
+    }
+
+    textarea {
+      width: 20rem;
+    }
+  }
+}

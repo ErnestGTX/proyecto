@@ -1,0 +1,124 @@
+.galeria__fotos {
+  width: 100%;
+  height: 81vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background-color: orange;
+  color: white;
+
+  .contenedor__fotos {
+    width: 90%;
+    height: auto;
+    display: grid;
+
+    .foto {
+      min-height: 10rem;
+      min-height: 10rem;
+      background-color: white;
+      border: 2px solid blueviolet;
+    }
+
+    .foto:hover {
+      transform: scale(1.1);
+      transition: 0.7s;
+      filter: saturate(2);
+      border-color: yellow;
+    }
+
+    .foto1 {
+      grid-column: 1;
+      grid-row: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      background-image: url(../img/niño1.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto2 {
+      grid-area: "foto2";
+      background-image: url(../img/pascua2.jpg);
+      background-size: cover;
+    }
+
+    .foto3 {
+      grid-column: 2;
+      grid-column-start: 3;
+      grid-column-end: 5;
+      background-image: url(../img/pascua.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto4 {
+      grid-column: 1;
+      grid-row: 2;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      background-image: url(../img/compartir3.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto5 {
+      grid-area: "foto5";
+      background-image: url(../img/pascua3.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto6 {
+      grid-area: "foto6";
+      background-image: url(../img/compartir.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto7 {
+      grid-area: "foto7";
+      background-image: url(../img/compartir2.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .foto8 {
+      grid-column: 2;
+      grid-column-start: 3;
+      grid-column-end: 5;
+      background-image: url(../img/resurreccion1.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  h3 {
+    width: 20rem;
+    margin-top: 2rem;
+  }
+  .galeria__fotos {
+    height: 60rem;
+    justify-content: space-around;
+
+    .contenedor__fotos {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h3 {
+    width: 20rem;
+  }
+
+  .galeria__fotos {
+    height: 48rem;
+  }
+}
