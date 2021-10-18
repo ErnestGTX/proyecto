@@ -1,3 +1,3 @@
 #Proyecto Jardin
-###Ernesto Alvarez
+##Ernesto Alvarez
 ![Jardin Infantil](https://github.com/ErnestGTX/proyecto/blob/main/img/proyecto.png)
