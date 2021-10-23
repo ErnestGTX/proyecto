@@ -64,6 +64,10 @@ body {
   background-position: center;
 }
 
+.contenedor__contacto {
+  @extend .contenedor__global;
+}
+
 .carousel__global--nosotros {
   width: 36%;
   height: 36%;

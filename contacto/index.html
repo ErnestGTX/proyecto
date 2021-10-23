@@ -57,47 +57,52 @@
       <a href=""><img src="../img/face.png" /></a>
       <a href=""><img src="../img/insta.png" /></a>
     </nav>
-    <main class="formulario__contacto">
-      <form action="">
-        <fieldset>
-          <legend>COMPLETA LOS SIGUIENTES DATOS:</legend>
-          <label for="nombre">NOMBRE Y APELLIDO:</label>
-          <input
-            type="text"
-            name="nombre"
-            id="nombre"
-            placeholder="Escriba su nombre"
-            required
-          />
-          <label for="correo">CORREO ELECTRONICO:</label>
-          <input
-            type="email"
-            name="correo"
-            id="correo"
-            placeholder="Escriba su correo"
-            required
-          />
-          <label for="familiar">QUE FAMILIAR ES UD.?</label>
-          <select name="familiar" required>
-            <option value="">Seleccione una opcion</option>
-            <option value="1">Mama</option>
-            <option value="2">Papa</option>
-            <option value="3">Tio</option>
-            <option value="4">Hermano</option>
-            <option value="5">Un Abuelo</option>
-          </select>
-          <label for="mensaje">ESCRIBA SU CONSULTA:</label>
-          <textarea
-            name="mensaje"
-            id="mensaje"
-            cols="30"
-            rows="5"
-            required
-          ></textarea>
-          <input type="reset" value="Borrar" />
-          <input type="submit" value="Enviar" />
-        </fieldset>
-      </form>
+    <main class="contenedor__contacto">
+      <section>
+        <img src="../img/imgcontacto.png" alt="La Cholita" />
+      </section>
+      <section class="formulario__contacto">
+        <form action="">
+          <fieldset>
+            <legend>COMPLETA LOS SIGUIENTES DATOS:</legend>
+            <label for="nombre">NOMBRE Y APELLIDO:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Escriba su nombre"
+              required
+            />
+            <label for="correo">CORREO ELECTRONICO:</label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="Escriba su correo"
+              required
+            />
+            <label for="familiar">QUE FAMILIAR ES UD.?</label>
+            <select name="familiar" required>
+              <option value="">Seleccione una opcion</option>
+              <option value="1">Mama</option>
+              <option value="2">Papa</option>
+              <option value="3">Tio</option>
+              <option value="4">Hermano</option>
+              <option value="5">Un Abuelo</option>
+            </select>
+            <label for="mensaje">ESCRIBA SU CONSULTA:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
+            <input type="reset" value="Borrar" />
+            <input type="submit" value="Enviar" />
+          </fieldset>
+        </form>
+      </section>
     </main>
     <footer class="pie__pagina">
       <span class="texto__pie"
