@@ -34,14 +34,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   height: 80.7vh;
-  padding: 4rem 2rem 3rem 2rem;
+  padding: 4rem 4rem 3rem 4rem;
   background-color: orange;
 
   .texto__global {
     text-align: left;
     line-height: 3;
     color: white;
-    width: 30rem;
+    width: 25rem;
   }
 
   .carousel__global {
@@ -53,11 +53,20 @@ body {
 .contenedor__nosotros {
   @extend .contenedor__global;
   background-image: url(../img/fondonosotros.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor__cuidado {
+  @extend .contenedor__global;
+  background-image: url(../img/fondocuidado.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .carousel__global--nosotros {
-  width: 40%;
-  height: 40%;
+  width: 36%;
+  height: 36%;
 }
 @media only screen and (max-width: 1080px) {
   .contenedor__global {

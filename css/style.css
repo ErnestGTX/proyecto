@@ -11149,48 +11149,56 @@ body {
   text-transform: capitalize;
 }
 
-.contenedor__global, .contenedor__nosotros {
+.contenedor__global, .contenedor__cuidado, .contenedor__nosotros {
   display: flex;
   justify-content: space-evenly;
   height: 80.7vh;
-  padding: 4rem 2rem 3rem 2rem;
+  padding: 4rem 4rem 3rem 4rem;
   background-color: orange;
 }
-.contenedor__global .texto__global, .contenedor__nosotros .texto__global {
+.contenedor__global .texto__global, .contenedor__cuidado .texto__global, .contenedor__nosotros .texto__global {
   text-align: left;
   line-height: 3;
   color: white;
-  width: 30rem;
+  width: 25rem;
 }
-.contenedor__global .carousel__global, .contenedor__nosotros .carousel__global {
+.contenedor__global .carousel__global, .contenedor__cuidado .carousel__global, .contenedor__nosotros .carousel__global {
   width: 30%;
   height: 30%;
 }
 
 .contenedor__nosotros {
   background-image: url(../img/fondonosotros.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor__cuidado {
+  background-image: url(../img/fondocuidado.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .carousel__global--nosotros {
-  width: 40%;
-  height: 40%;
+  width: 36%;
+  height: 36%;
 }
 
 @media only screen and (max-width: 1080px) {
-  .contenedor__global, .contenedor__nosotros {
+  .contenedor__global, .contenedor__nosotros, .contenedor__cuidado {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 8rem;
     height: 70rem;
   }
-  .contenedor__global .carousel__global, .contenedor__nosotros .carousel__global {
+  .contenedor__global .carousel__global, .contenedor__nosotros .carousel__global, .contenedor__cuidado .carousel__global {
     width: 25rem;
   }
-  .contenedor__global .texto__global, .contenedor__nosotros .texto__global {
+  .contenedor__global .texto__global, .contenedor__nosotros .texto__global, .contenedor__cuidado .texto__global {
     line-height: 2;
   }
-  .contenedor__global .texto__global h3, .contenedor__nosotros .texto__global h3 {
+  .contenedor__global .texto__global h3, .contenedor__nosotros .texto__global h3, .contenedor__cuidado .texto__global h3 {
     width: 15rem;
   }
 
@@ -11199,23 +11207,23 @@ body {
   }
 }
 @media only screen and (max-width: 800px) {
-  .contenedor__global, .contenedor__nosotros {
+  .contenedor__global, .contenedor__nosotros, .contenedor__cuidado {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
     height: auto;
   }
-  .contenedor__global .carousel__global, .contenedor__nosotros .carousel__global {
+  .contenedor__global .carousel__global, .contenedor__nosotros .carousel__global, .contenedor__cuidado .carousel__global {
     width: 20rem;
     height: auto;
     margin-top: 2rem;
   }
-  .contenedor__global .texto__global, .contenedor__nosotros .texto__global {
+  .contenedor__global .texto__global, .contenedor__nosotros .texto__global, .contenedor__cuidado .texto__global {
     line-height: 2;
     width: 20rem;
   }
-  .contenedor__global .texto__global h3, .contenedor__nosotros .texto__global h3 {
+  .contenedor__global .texto__global h3, .contenedor__nosotros .texto__global h3, .contenedor__cuidado .texto__global h3 {
     width: 10rem;
   }
 
