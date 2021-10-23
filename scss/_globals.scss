@@ -33,7 +33,7 @@ body {
 .contenedor__global {
   display: flex;
   justify-content: space-evenly;
-  height: 81vh;
+  height: 80.7vh;
   padding: 4rem 2rem 3rem 2rem;
   background-color: orange;
 
@@ -48,6 +48,11 @@ body {
     width: 30%;
     height: 30%;
   }
+}
+
+.contenedor__nosotros {
+  @extend .contenedor__global;
+  background-image: url(../img/fondonosotros.png);
 }
 
 .carousel__global--nosotros {
