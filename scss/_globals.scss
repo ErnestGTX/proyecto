@@ -68,6 +68,13 @@ body {
   @extend .contenedor__global;
 }
 
+.contenedor__actividades {
+  @extend .contenedor__global;
+  background-image: url(../img/fondoactividades.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .carousel__global--nosotros {
   width: 36%;
   height: 36%;
