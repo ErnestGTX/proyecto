@@ -72,6 +72,12 @@ body {
   width: 36%;
   height: 36%;
 }
+
+.d-block {
+  border: blueviolet 10px solid;
+  border-style: dashed;
+}
+
 @media only screen and (max-width: 1080px) {
   .contenedor__global {
     flex-wrap: wrap;

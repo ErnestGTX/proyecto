@@ -11184,6 +11184,11 @@ body {
   height: 36%;
 }
 
+.d-block {
+  border: blueviolet 10px solid;
+  border-style: dashed;
+}
+
 @media only screen and (max-width: 1080px) {
   .contenedor__global, .contenedor__nosotros, .contenedor__cuidado, .contenedor__contacto {
     flex-wrap: wrap;
