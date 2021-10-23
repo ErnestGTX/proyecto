@@ -1,8 +1,8 @@
 $caja: (
-  visita: rgb(156, 50, 255),
-  especial: rgb(255, 230, 0),
-  cueca: rgb(70, 70, 255),
-  navidad: rgb(252, 78, 78),
+  visita: blueviolet,
+  especial: green,
+  cueca: blue,
+  navidad: red,
 );
 @each $evento, $color in $caja {
   .#{$evento}--box {
@@ -13,7 +13,8 @@ $caja: (
     width: 20rem;
     height: 30rem;
     padding: 1rem;
-    border: 3px solid white;
+    border: 4px solid orange;
+    border-style: dashed;
     color: white;
     background-color: $color;
   }
@@ -23,11 +24,6 @@ $caja: (
     height: 15rem;
     margin-bottom: 1rem;
     border: 3px solid orange;
-  }
-
-  .imagen__box--nueva {
-    @extend .imagen__box;
-    border: 3px solid white;
   }
 }
 

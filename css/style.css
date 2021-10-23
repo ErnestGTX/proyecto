@@ -11185,7 +11185,7 @@ body {
 }
 
 .d-block {
-  border: blueviolet 10px solid;
+  border: blueviolet 6px solid;
   border-style: dashed;
 }
 
@@ -11290,8 +11290,9 @@ body {
 .galeria__fotos .contenedor__fotos .foto {
   min-height: 10rem;
   min-height: 10rem;
-  background-color: white;
-  border: 2px solid blueviolet;
+  background-color: orange;
+  border: 2px solid orange;
+  margin: 0.5re 0.5rem 0.5rem 0.5rem;
 }
 .galeria__fotos .contenedor__fotos .foto:hover {
   transform: scale(1.1);
@@ -11397,20 +11398,17 @@ h3 {
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 3px solid white;
+  border: 4px solid orange;
+  border-style: dashed;
   color: white;
-  background-color: #9c32ff;
+  background-color: blueviolet;
 }
 
-.imagen__box, .imagen__box--nueva {
+.imagen__box {
   width: 13rem;
   height: 15rem;
   margin-bottom: 1rem;
   border: 3px solid orange;
-}
-
-.imagen__box--nueva {
-  border: 3px solid white;
 }
 
 .especial--box {
@@ -11421,20 +11419,17 @@ h3 {
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 3px solid white;
+  border: 4px solid orange;
+  border-style: dashed;
   color: white;
-  background-color: #ffe600;
+  background-color: green;
 }
 
-.imagen__box, .imagen__box--nueva {
+.imagen__box {
   width: 13rem;
   height: 15rem;
   margin-bottom: 1rem;
   border: 3px solid orange;
-}
-
-.imagen__box--nueva {
-  border: 3px solid white;
 }
 
 .cueca--box {
@@ -11445,20 +11440,17 @@ h3 {
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 3px solid white;
+  border: 4px solid orange;
+  border-style: dashed;
   color: white;
-  background-color: #4646ff;
+  background-color: blue;
 }
 
-.imagen__box, .imagen__box--nueva {
+.imagen__box {
   width: 13rem;
   height: 15rem;
   margin-bottom: 1rem;
   border: 3px solid orange;
-}
-
-.imagen__box--nueva {
-  border: 3px solid white;
 }
 
 .navidad--box {
@@ -11469,20 +11461,17 @@ h3 {
   width: 20rem;
   height: 30rem;
   padding: 1rem;
-  border: 3px solid white;
+  border: 4px solid orange;
+  border-style: dashed;
   color: white;
-  background-color: #fc4e4e;
+  background-color: red;
 }
 
-.imagen__box, .imagen__box--nueva {
+.imagen__box {
   width: 13rem;
   height: 15rem;
   margin-bottom: 1rem;
   border: 3px solid orange;
-}
-
-.imagen__box--nueva {
-  border: 3px solid white;
 }
 
 @media only screen and (max-width: 1080px) {
