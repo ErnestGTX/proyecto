@@ -11631,7 +11631,7 @@ select {
     padding-top: 1rem;
   }
   .formulario__contacto form {
-    width: 23rem;
+    width: 20rem;
   }
   .formulario__contacto form label {
     width: 15rem;
@@ -11639,6 +11639,12 @@ select {
   }
   .formulario__contacto textarea {
     width: 20rem;
+  }
+
+  .img__contacto {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 5rem;
   }
 }
 .home__error {
