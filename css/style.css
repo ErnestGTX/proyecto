@@ -11217,6 +11217,19 @@ body {
     width: 30rem;
   }
 }
+@media only screen and (max-width: 1080px) {
+  .contenedor__nosotros {
+    background-image: none;
+  }
+
+  .contenedor__actividades {
+    background-image: none;
+  }
+
+  .contenedor__cuidado {
+    background-image: none;
+  }
+}
 @media only screen and (max-width: 800px) {
   .contenedor__global, .contenedor__nosotros, .contenedor__cuidado, .contenedor__contacto, .contenedor__actividades {
     flex-direction: column;
@@ -11378,16 +11391,18 @@ h3 {
 }
 
 @media only screen and (max-width: 1080px) {
-  h3 {
+  .galeria__fotos {
+    background-image: none;
+  }
+  .galeria__fotos h3 {
     width: 20rem;
     margin-top: 2rem;
   }
-
-  .galeria__fotos {
+  .galeria__fotos .galeria__fotos {
     height: 60rem;
     justify-content: space-around;
   }
-  .galeria__fotos .contenedor__fotos {
+  .galeria__fotos .galeria__fotos .contenedor__fotos {
     margin-bottom: 2rem;
   }
 }

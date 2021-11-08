@@ -110,6 +110,20 @@ body {
   }
 }
 
+@media only screen and (max-width: 1080px) {
+  .contenedor__nosotros {
+    background-image: none;
+  }
+
+  .contenedor__actividades {
+    background-image: none;
+  }
+
+  .contenedor__cuidado {
+    background-image: none;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .contenedor__global {
     flex-direction: column;
