@@ -15,6 +15,18 @@
 @media only screen and (max-width: 1080px) {
   .contenedor__home {
     height: 90vh;
+    background-image: url(../img/portada2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contenedor__home {
+    height: 90vh;
+    background-image: url(../img/portada2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 
