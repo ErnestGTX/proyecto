@@ -11544,7 +11544,7 @@ h3 {
   display: flex;
   justify-content: center;
   background-color: orange;
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 
 fieldset {
@@ -11634,6 +11634,12 @@ select {
   .formulario__contacto {
     height: 100vh;
     padding-top: 5rem;
+  }
+
+  .img__contacto {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 5rem;
   }
 }
 @media only screen and (max-width: 700px) {
