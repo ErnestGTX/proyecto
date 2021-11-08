@@ -11659,7 +11659,7 @@ select {
 }
 @media only screen and (max-width: 700px) {
   .formulario__contacto {
-    height: 100vh;
+    height: 80vh;
     padding-top: 1rem;
   }
   .formulario__contacto form {
@@ -11676,6 +11676,7 @@ select {
   .img__contacto {
     width: 15rem;
     height: 15rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
   }
 }
