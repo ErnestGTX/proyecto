@@ -7,7 +7,27 @@
   margin-top: 5rem;
 
   a {
-    color: white;
-    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .img__error {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .home__error {
+    font-size: 0.8rem;
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  .img__error {
+    width: 20rem;
+    margin-top: 2rem;
   }
 }
