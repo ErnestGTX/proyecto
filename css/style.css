@@ -11158,7 +11158,7 @@ body {
 }
 .contenedor__global .texto__global, .contenedor__actividades .texto__global, .contenedor__contacto .texto__global, .contenedor__cuidado .texto__global, .contenedor__nosotros .texto__global {
   text-align: left;
-  line-height: 2.2;
+  line-height: 2;
   color: white;
   width: 25rem;
 }
