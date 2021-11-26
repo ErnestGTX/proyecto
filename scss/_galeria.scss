@@ -109,18 +109,15 @@ h3 {
 @media only screen and (max-width: 1080px) {
   .galeria__fotos {
     background-image: none;
+    height: 87vh;
 
     h3 {
       width: 20rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
     }
     .galeria__fotos {
       height: 60rem;
-      justify-content: space-around;
-
-      .contenedor__fotos {
-        margin-bottom: 2rem;
-      }
+      justify-content: space-evenly;
     }
   }
 }

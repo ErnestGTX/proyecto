@@ -11224,6 +11224,7 @@ body {
 
   .contenedor__actividades {
     background-image: none;
+    height: 200vh;
   }
 
   .contenedor__cuidado {
@@ -11393,17 +11394,15 @@ h3 {
 @media only screen and (max-width: 1080px) {
   .galeria__fotos {
     background-image: none;
+    height: 87vh;
   }
   .galeria__fotos h3 {
     width: 20rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   .galeria__fotos .galeria__fotos {
     height: 60rem;
-    justify-content: space-around;
-  }
-  .galeria__fotos .galeria__fotos .contenedor__fotos {
-    margin-bottom: 2rem;
+    justify-content: space-evenly;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -11647,7 +11646,6 @@ select {
 
 @media only screen and (max-width: 1080px) {
   .formulario__contacto {
-    height: 100vh;
     padding-top: 5rem;
   }
 
